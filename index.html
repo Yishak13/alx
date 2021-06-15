@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yishak Abraham</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Your Website Title" />
+	<meta property="og:description"   content="Your description" />
+	<meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+</head>
+<body class="works_on_smartphone">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
+	<script>window.twttr = (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0],
+	    t = window.twttr || {};
+	  if (d.getElementById(id)) return t;
+	  js = d.createElement(s);
+	  js.id = id;
+	  js.src = "https://platform.twitter.com/widgets.js";
+	  fjs.parentNode.insertBefore(js, fjs);
+
+	  t._e = [];
+	  t.ready = function(f) {
+	    t._e.push(f);
+	  };
+
+	  return t;
+	}(document, "script", "twitter-wjs"));</script>
+
+	<header>
+		<ul class="social">
+			<a href="#about">About Us</a>
+			<a href="#contact">Contact Us</a>
+			<a href="tweets.html">Tweets</a>
+
+			<!-- Your share button code -->
+			<div class="fb-share-button" 
+			data-href="https://www.your-domain.com/your-page.html" 
+			data-layout="button_count" style="margin-right: 10px;">
+			</div>
+
+			<a class="twitter-share-button"
+			  href="https://twitter.com/intent/tweet">
+			Tweet</a>
+
+		</ul>
+
+		<div class="logo_container">
+			<a href="http://google.com">
+				<img src="https://alx-apply.hbtn.io/brand_alx/alx-logo.png" class="logo" alt="Yishak Abraham">
+			</a>
+		</div>
+
+		<div class="burger">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+
+	<main>
+		<article>
+			<div class="header"></div>
+
+			<div class="center">
+				<img src="./profile.jpg" class="profile_pic" alt="Yishak Abraham's Picture">
+				<h1 class="hero">Yishak Abraham</h1>
+				<p class="parag">Hi, My name is Yishak Abraham. I am the founder of this website. Please use the button below to for any suggestion, recommendation or to report bugs about this website.</p>
+				<a href="mailto:proyishak@gmail.com" class="keep_in_touch">Keep in touch</a>
+			</div>
+
+			<div id="about" style="margin-top: 50px;">
+				<div class="center">
+					<h2 class="hero">About Us</h2>
+					<p class="parag">Hi my name is Yishak Abraham I am a full stack developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+			<div id="contact" style="margin-top: 50px;">
+				<div class="center">
+					<h3 class="hero">Contact Us</h3>
+					<p class="parag">Please use the email address 'proyishak@gmail.com' to report any thing related to this website. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				</div>
+			</div>
+
+			<div class="disqus_container">
+				<div id="disqus_thread"></div>
+				<script>
+				    /**
+				    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+				    /*
+				    var disqus_config = function () {
+				    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+				    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				    };
+				    */
+				    (function() { // DON'T EDIT BELOW THIS LINE
+				    var d = document, s = d.createElement('script');
+				    s.src = 'https://alx-yishak.disqus.com/embed.js';
+				    s.setAttribute('data-timestamp', +new Date());
+				    (d.head || d.body).appendChild(s);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<span>&copy; Copyright 2021 Yishak Abraham</span>
+	</footer>
+
+	<script type="text/javascript" src="./behaviour.js"></script>
+	<script id="dsq-count-scr" src="//alx-yishak.disqus.com/count.js" async></script>
+</body>
+</html>
